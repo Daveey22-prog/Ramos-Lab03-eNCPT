@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "terminology_system": "NCPT (illustrative categories; not a licensed terminology set)",
+  "patient": {
+    "id": "DEMO-001",
+    "name_or_alias": "Sample Patient",
+    "age_years": 45,
+    "visit_date": "2026-10-23",
+    "professional": "Demo Dietitian"
+  },
+  "assessment": {
+    "terminology_category": "Food/nutrition-related history",
+    "anthropometrics": {
+      "weight_kg": 78,
+      "height_cm": 165,
+      "bmi_kg_m2": 28.7
+    },
+    "food_nutrition_history": "Reports skipping breakfast and consuming sugar-sweetened drinks most afternoons.",
+    "biochemical_data": "No recent laboratory results provided.",
+    "nutrition_focused_physical_findings": "No nutrition-focused findings recorded at this visit."
+  },
+  "diagnosis": {
+    "problem": "Food- and nutrition-related knowledge deficit",
+    "etiology": "limited prior nutrition education on meal planning",
+    "signs_symptoms": "patient report of uncertainty about balanced meal composition",
+    "pes_statement": "Food- and nutrition-related knowledge deficit related to limited prior nutrition education on meal planning as evidenced by patient report of uncertainty about balanced meal composition.",
+    "notes": "Illustrative diagnosis for classroom practice only."
+  },
+  "intervention": {
+    "category": "Nutrition education",
+    "planned_action": "Discuss general balanced-meal planning and review patient-selected food examples.",
+    "goal": "Patient will identify three examples of balanced meals at the next review.",
+    "follow_up_date": "2026-11-06",
+    "status": "Planned"
+  },
+  "monitoring_evaluation": {
+    "indicator": "Knowledge and behavior change",
+    "baseline": "Unable to identify a balanced-meal example",
+    "target": "Identifies 3 balanced-meal examples",
+    "progress": "Baseline assessment documented; intervention not yet evaluated.",
+    "outcome_status": "Not yet evaluated",
+    "review_date": "2026-11-06",
+    "next_steps": "Review understanding and adapt education to patient preferences."
+  }
+}
